@@ -8,8 +8,8 @@ function App() {
 
   const generateQrCode = () => {
     QRCode.toDataURL(url, {
-      inline-size: 500,
-      margin: 3,  
+      "inline-size": 400,
+      margin: 3,
       color: {
         dark: "#141414ff",
         light: "#f0e9e9ff"
